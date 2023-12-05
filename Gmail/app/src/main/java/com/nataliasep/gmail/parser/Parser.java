@@ -110,9 +110,8 @@ public class Parser {
 
                     correos.add(new Correo(fromCorreo, toCorreo, asuntoCorreo, cuerpoCorreo, fechaHoraEnviadoCorreo, leidoCorreo, borradoCorreo, spamCorreo));
                 }
-
-
             }
+            parseado = true;
         } catch (IOException ioe) {
             Log.e(getClass().getSimpleName(), "IOException: " + ioe.getLocalizedMessage());
         } catch (JSONException je) {

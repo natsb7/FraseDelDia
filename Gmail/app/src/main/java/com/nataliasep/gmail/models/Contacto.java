@@ -67,4 +67,8 @@ public class Contacto implements Serializable {
     public String getDireccion() {
         return direccion;
     }
+
+    public String getNombreCompleto(){
+        return nombre + " " + primerApellido + " " + segundoApellido;
+    }
 }
