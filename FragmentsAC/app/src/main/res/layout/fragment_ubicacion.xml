@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentUbicacion">
+
+    <ImageView
+        android:id="@+id/mapa"
+        android:layout_width="437dp"
+        android:layout_height="782dp"
+        android:src="@drawable/isla1rec" />
+
+    <ImageView
+        android:id="@+id/bambina"
+        android:layout_width="43dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="345dp"
+        android:src="@drawable/bambina" />
+
+    <ImageView
+        android:id="@+id/encina"
+        android:layout_width="43dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="406dp"
+        android:src="@drawable/encina" />
+
+    <ImageView
+        android:id="@+id/feli"
+        android:layout_width="42dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="460dp"
+        android:src="@drawable/feli" />
+
+    <ImageView
+        android:id="@+id/hanalulu"
+        android:layout_width="42dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="85dp"
+        android:src="@drawable/hanalulu" />
+
+    <ImageView
+        android:id="@+id/molly"
+        android:layout_width="33dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/molly" />
+
+    <ImageView
+        android:id="@+id/carla"
+        android:layout_width="40dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/carla" />
+
+    <ImageView
+        android:id="@+id/gala"
+        android:layout_width="34dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="455dp"
+        android:src="@drawable/gala" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="42dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="357dp"
+        android:layout_marginTop="505dp"
+        android:src="@drawable/cervasio" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="45dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/flora" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="93dp"
+        android:layout_marginLeft="315dp"
+        android:layout_marginTop="268dp"
+        android:src="@drawable/meralda" />
+
+    <TextView
+        android:id="@+id/tvTituloUbi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#009688"
+        android:text="   Mapa"
+        android:textColor="#FAF9F9"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+</FrameLayout>
